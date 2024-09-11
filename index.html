@@ -1,146 +1,247 @@
 <!DOCTYPE html>
 <html lang="ko">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>portfolio</title>
-    <link rel="stylesheet" href="css/style.css">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>허재성 portfolio</title>
+    <link rel="stylesheet" href="styles/style.css" />
+    <script src="js/jquery-1.12.3.js"></script>
     <script src="js/script.js"></script>
-</head>
-<body>
+  </head>
+  <body>
     <div class="wrap">
-        <header class="header">
-                <!-- <a class="logo" href="#"><img src="images/logo.png" alt=""></a> -->
-                <h2>허 재 성</h2>
-            <div class="menu">
-                <ul>
-                    <li>
-                        <a href="#">자기소개</a>
-                        <ul>
-                            <li><a href="#">가정환경</a></li>
-                            <li><a href="#">학창시절</a></li>
-                            <li><a href="#">취업결심이유</a></li>
-                            <li><a href="#">취업과정</a></li>
-                            <li><a href="#">취업이후계획</a></li>
-                        </ul>
-                    </li>
-                    <li>
-                        <a href="#">포트폴리오</a>
-                        <ul>
-                            <li><a href="#">premiere pro</a></li>
-                            <li><a href="#">affter effects</a></li>
-                            <li><a href="#">figma</a></li>
-                            <li><a href="#">visual studio</a></li>
-                            <li><a href="#">javascript</a></li>
-                        </ul>
-                    </li>
-                    <li>
-                        <a href="#">영상1</a>
-                        <ul>
-                            <li><a href="#">컷편집1</a></li>
-                            <li><a href="#">컷편집2</a></li>
-                            <li><a href="#">컷편집3</a></li>
-                        </ul>
-                    </li>
-                    <li>
-                        <a href="#">영상2</a>
-                        <ul>
-                            <li><a href="#">모션그래픽</a></li>
-                            <li><a href="#">키네틱타이포</a></li>
-                            <li><a href="#">fake 3D</a></li>
-                        </ul>
-                    </li>
-                    <li>
-                        <a href="#">영상3</a>
-                        <ul>
-                            <li><a href="#">expreesion code1</a></li>
-                            <li><a href="#">expreesion code2</a></li>
-                            <li><a href="#">expreesion code3</a></li>
-                        </ul>
-                    </li>
-                    <li>
-                        <a href="#">qna</a>
-                        <ul>
-                            <li><a href="#">가정환경</a></li>
-                            <li><a href="#">학창시절</a></li>
-                            <li><a href="#">취업결심이유</a></li>
-                        </ul>
-                    </li>
+      <!-- header -->
+      <header>
+        <div class="header-inner">
+          <div class="logo">
+            <a href="#">
+              <img src="https://picsum.photos/200/100" alt="btlogo" />
+              <span>Heo Jae Seong</span>
+            </a>
+          </div>
+          <div class="menu">
+            <ul class="navi">
+              <li>
+                <a href="#">자기소개</a>
+                <ul class="submenu">
+                  <li><a href="#">가정환경</a></li>
+                  <li><a href="#">학창시절</a></li>
+                  <li><a href="#">취업결심이유</a></li>
+                  <li><a href="#">취업이후계획</a></li>
                 </ul>
+              </li>
+              <li>
+                <a href="#">포트폴리오</a>
+                <ul class="submenu">
+                  <li><a href="#">premiere pro</a></li>
+                  <li><a href="#">affter effects</a></li>
+                  <li><a href="#">figma</a></li>
+                  <li><a href="#">javascript</a></li>
+                </ul>
+              </li>
+              <li>
+                <a href="#">영상1</a>
+                <ul class="submenu">
+                  <li><a href="#">컷 편집1</a></li>
+                  <li><a href="#">컷 편집2</a></li>
+                  <li><a href="#">컷 편집3</a></li>
+                </ul>
+              </li>
+              <li>
+                <a href="#">영상2</a>
+                <ul class="submenu">
+                  <li><a href="#">모션그래픽</a></li>
+                  <li><a href="#">키네틱타이포</a></li>
+                  <li><a href="#">fake 3D</a></li>
+                </ul>
+              </li>
+              <li>
+                <a href="#">영상3</a>
+                <ul class="submenu">
+                  <li><a href="#">expreesion code1</a></li>
+                  <li><a href="#">expreesion code2</a></li>
+                  <li><a href="#">expreesion code3</a></li>
+                </ul>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </header>
+
+      <!-- main -->
+      <main>
+        <section id="home">
+          <div class="box">
+            <!-- 여기에 각 영역 구조잡고 꾸미세요 -->
+            <iframe width="1380" height="300" autoplay src="https://youtube.com/embed/YUsAHta7jao?si=g-U9pjBIvUQtmubl" frameborder="0"></iframe>
+            <span>CREAT,SHARE,PLAY!</span>
+          </div>
+        </section>
+        <section id="portfolio">
+          <!-- 여기에 각 영역 구조잡고 꾸미세요 -->
+          <div class="box1">
+              <ul>
+                <li><a href="#"><img src="images/premiere.png" alt="프리미어프로" ></a></li>
+                <li><a href="#"><img src="images/aftereffect.png" alt="애프터이펙트" ></a></li>
+                <li><a href="#"><img src="images/figma.png" alt="피그마" ></a></li>
+                <li><a href="#"><img src="images/js.png" alt="js"></a></li>
+                <li><a href="#"><img src="images/visiual-studio.png" alt="vs" ></a></li>
+              </ul>
+        </div>
+      </section>
+          <!-- contents -->
+          <section id="about">
+            <div class="box2">
+              <!-- 여기에 각 영역 구조잡고 꾸미세요 -->
+              <a href="#"><img src="https://picsum.photos/50/50" alt="사진"></a>
+              <div class="myself">
+                <ul>
+                  <li><a href="#">허재성</a></li>
+                  <li><a href="#">rtadddg456@naver.com</a></li>
+                  <li><a href="#">01095054409</a></li>
+                </ul>
+
+              </div>
+              
+                <div class="introduce1">
+                  <h3>가정환경</h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Maiores
+                    deleniti nam, aut optio ad, nostrum praesentium placeat error
+                    perferendis vitae assumenda odio blanditiis iure debitis voluptate
+                    eveniet animi iste incidunt.</p>
+                </div>
+                <div class="introduce2">
+                  <h3>학창시절</h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Maiores
+                    deleniti nam, aut optio ad, nostrum praesentium placeat error
+                    perferendis vitae assumenda odio blanditiis iure debitis voluptate
+                    eveniet animi iste incidunt.</p>
+                </div>
+                <div class="introduce3">
+                  <h3>취업결심계기</h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Maiores
+                    deleniti nam, aut optio ad, nostrum praesentium placeat error
+                    perferendis vitae assumenda odio blanditiis iure debitis voluptate
+                    eveniet animi iste incidunt.</p>
+                </div>
+                <div class="introduce4">
+                  <h3>취업이후 계획</h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Maiores
+                    deleniti nam, aut optio ad, nostrum praesentium placeat error
+                    perferendis vitae assumenda odio blanditiis iure debitis voluptate
+                    eveniet animi iste incidunt.</p>
+                </div>
+              <!-- <span>about 영역</span> -->
             </div>
-        </header>
-            <div class="content">
-                <div class="show-video">
-                    <video src=""></video>
-                    <h3>CREAT,SHARE,PLAY!</h3>
-                    <p>VR not required</p>
-                </div>
-                <div class="skills">
-                    <a href="#"><img src="images/premiere.png" alt="프리미어프로" width="48px" height="48px"></a>
-                    <a href="#"><img src="images/aftereffect.png" alt="애프터이펙트" width="48px" height="48px"></a>
-                    <a href="#"><img src="images/figma.png" alt="피그마" width="48px" height="48px"></a>
-                    <a href="#"><img src="images/js.png" alt="js" width="48px" height="48px"></a>
-                    <a href="#"><img src="images/visiual-studio.png" alt="vs" width="48px" height="48px"></a>
-                </div>
-                <div class="introduce">
-                    <a href="#"><img src="" alt=""></a>
-                    <p>허 재 성</p>
-                    <p>rtadddg456@naver.com</p>
-                    <span>010-9505-4409</span>
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Maiores
-                        deleniti nam, aut optio ad, nostrum praesentium placeat error
-                        perferendis vitae assumenda odio blanditiis iure debitis voluptate
-                        eveniet animi iste incidunt.</p>
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Maiores
-                        deleniti nam, aut optio ad, nostrum praesentium placeat error
-                        perferendis vitae assumenda odio blanditiis iure debitis voluptate
-                        eveniet animi iste incidunt.</p>
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Maiores
-                        deleniti nam, aut optio ad, nostrum praesentium placeat error
-                        perferendis vitae assumenda odio blanditiis iure debitis voluptate
-                        eveniet animi iste incidunt.</p>
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Maiores
-                        deleniti nam, aut optio ad, nostrum praesentium placeat error
-                        perferendis vitae assumenda odio blanditiis iure debitis voluptate
-                        eveniet animi iste incidunt.</p>
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Maiores
-                        deleniti nam, aut optio ad, nostrum praesentium placeat error
-                        perferendis vitae assumenda odio blanditiis iure debitis voluptate
-                        eveniet animi iste incidunt.</p>
-                </div>
-                <div class="video-chart">
-                    <div class="card-wrap">
-                        <div class="thumbnail">
-                          <a href="" target="_blank" rel="noopener noreferrer">
-                            <img src="" alt="thumbnail" />
-                          </a>
-                        </div>
-                        <div class="contents">
-                          <h2>
-                            <a href="" target="_blank" rel="noopener noreferrer">영상</a>
-                          </h2>
-                          <p class="desc">video1</p>
-                          <p class="date">2024.09.05</p>
-                        </div>
+          </section>
+
+          <section id="video1">
+            <div class="box">
+              <!-- 여기에 각 영역 구조잡고 꾸미세요 -->
+              <div class="video-chart">
+                <div class="card-wrap">
+                    <div class="thumbnail">
+                      <a href="" target="_blank" rel="noopener noreferrer">
+                        <img src="https://picsum.photos/1380/300?random1" alt="thumbnail" />
+                      </a>
+                    </div>
+                    <div class="contents">
+                      <h2>
+                        <a href="#" target="_blank" rel="noopener noreferrer">영상1</a>
+                      </h2>
+                      <p class="desc">video1</p>
+                      <p class="date">2024.09.06</p>
                     </div>
                 </div>
             </div>
-            <footer>
-
-            </footer>
-            <div id="modal">
-                <div class="modal-inner">
-                  <div class="modal-title">TITLE</div>
-                  <div class="modal-body">
-                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Maiores
-                    deleniti nam, aut optio ad, nostrum praesentium placeat error
-                    perferendis vitae assumenda odio blanditiis iure debitis voluptate
-                    eveniet animi iste incidunt.
-                  </div>
-                  <div class="modal-btn">close</div>
+              <!-- <span>video1 영역</span> -->
+            </div>
+          </section>
+  
+          <!-- video2 -->
+          <section id="video2">
+            <div class="box">
+              <!-- 여기에 각 영역 구조잡고 꾸미세요 -->
+              <div class="video-chart">
+                <div class="card-wrap">
+                    <div class="thumbnail">
+                      <a href="#" target="_blank" rel="noopener noreferrer">
+                        <img src="https://picsum.photos/1380/300?random2" alt="thumbnail" />
+                      </a>
+                    </div>
+                    <div class="contents">
+                      <h2>
+                        <a href="#" target="_blank" rel="noopener noreferrer">영상2</a>
+                      </h2>
+                      <p class="desc">video2</p>
+                      <p class="date">2024.09.06</p>
+                    </div>
                 </div>
-              </div>
-      
+            </div>
+              <!-- <span>video2 영역</span> -->
+            </div>
+          </section>
+  
+          <!-- video3 -->
+          <section id="video3">
+            <div class="box">
+              <!-- 여기에 각 영역 구조잡고 꾸미세요 -->
+              <div class="video-chart">
+                <div class="card-wrap">
+                    <div class="thumbnail">
+                      <a href="#" target="_blank" rel="noopener noreferrer">
+                        <img src="https://picsum.photos/1380/300?random3" alt="thumbnail" />
+                      </a>
+                    </div>
+                    <div class="contents">
+                      <h2>
+                        <a href="#" target="_blank" rel="noopener noreferrer">영상3</a>
+                      </h2>
+                      <p class="desc">video3</p>
+                      <p class="date">2024.09.06</p>
+                    </div>
+                </div>
+            </div>
+              <!-- <span>video3 영역</span> -->
+            </div>
+          </section>
+        </div>
+      </main>
+
+      <!-- modal -->
+      <div id="modal">
+        <div class="modal-inner">
+          <div class="modal-title">USED SKILLS</div>
+          <div class="modal-body">
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Maiores
+            deleniti nam, aut optio ad, nostrum praesentium placeat error
+            perferendis vitae assumenda odio blanditiis iure debitis voluptate
+            eveniet animi iste incidunt.
+          </div>
+          <div class="modal-btn">close</div>
+        </div>
+      </div>
+                <!-- footer -->
+                <footer>
+                  <div class="footer-inner">
+
+                    <div class="btmenu">
+                      <ul class="site">
+                        <li>
+                          <a href="#">궁금한점</a>
+                        </li>
+                        <li>
+                          <a href="#">연락처</a>
+                        </li>
+                        <li>
+                          <a href="#">오시는 길</a>
+                        </li>
+                      </ul>
+                      <div class="copy">Copyright 2024. ABC all rights reserved.</div>
+                    </div>
+                  </div>
+                </footer>
     </div>
-</body>
+
+  </body>
 </html>
