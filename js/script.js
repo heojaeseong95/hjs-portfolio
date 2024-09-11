@@ -25,3 +25,4 @@ jQuery(document).ready(function () {
    $("#modal").removeClass("active");
   });
  });
+ 
