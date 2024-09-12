@@ -134,7 +134,6 @@
  .submenu a:hover {
   background-color: rgba(255, 255, 255, 0.5);
  }
- 
  /* main */
  main {
   position: relative;
@@ -162,9 +161,8 @@
   font-size: 48px;
   text-align: center;
   background-color: rgba(255, 255, 255, 0.5);
-  
- }
 
+ }
  .box1{
   position: relative;
   width: 100%;
