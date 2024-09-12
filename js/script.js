@@ -1,5 +1,5 @@
 jQuery(document).ready(function () {
-  // image fadeIn-Out
+  // video fadeIn-Out
   $(".img-slide a:gt(0)").hide();
   setInterval(function () {
    $(".img-slide a:first-child")
